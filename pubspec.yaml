@@ -4,14 +4,11 @@ description: Demonstrates how to use the firebase_admob plugin.
 dependencies:
   flutter:
     sdk: flutter
-  firebase_admob:
-    path: ../
-  firebase_core:
-    path: ../../firebase_core/firebase_core
+  firebase_admob: ^0.10.2
+  firebase_core: ^0.5.2+1
 
 dependency_overrides:
-  firebase_core:
-    path: ../../firebase_core/firebase_core
+  firebase_core: ^0.5.2+1
 
 dev_dependencies:
   pedantic: ^1.8.0
